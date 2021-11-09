@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Slot Machine</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	  <script src="js/script.js"></script>
+  </head>
+  <body>
+    <h1>Slot Machine</h1>
+    <p>Welcome, take a seat and enjoy a game of slots! Place your bet and multiply it by 2, 6 or 15. You must bet a minimum of $1 and a maximum of $100. Let's get started, place your bet!</p>
+    <div class="row">
+      <img src="img/cherry.png" alt="cherry"/><h3>= x2</h3>
+      <img src="img/bar.png" alt="bar"/><h3>= x6</h3>
+      <img src="img/seven.png" alt="seven"/><h3>= x15</h3>
+    </div><br>
+    <input type="number" id="bet"><br><br>
+    <button>Bet</button><br><br>
+    <table>
+      <tr>
+        <td><div id="slot1"></div></td>
+        <td><div id="slot2"></div></td>
+        <td><div id="slot3"></div></td>
+      </tr>
+    </table>
+    <h3 id="invalid"></h3>
+    <h2 id="win"></h2>
+    <h4 id="totalWin"></h4>
+    <footer>
+      <br><p>CST 336 Internet Programming. 2021ⓒ Vickstrom.<br><em>This site is for academic purposes only.</em></p>
+      <img src="img/csumb.png" alt="csumb">
+    </footer>
+  </body>
+</html>

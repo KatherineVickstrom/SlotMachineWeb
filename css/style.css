@@ -1,0 +1,58 @@
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+h1 {
+  font-size: 32pt;
+}
+#invalid {
+  color: red;
+}
+p {
+  font-size: 16pt;
+  padding: 5px 50px;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row img {
+  padding: 5px;
+  width: 50px;
+}
+input[type=number]:focus {
+  border: 3px solid #555;
+}
+button {
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+button:hover {
+  background-color: white;
+  color: green;
+}
+button:active {
+  background-color: green;
+  color: white;
+}
+table, th, td {
+  border: 2px solid white;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+table img {
+  width: 150px;
+}
+footer p {
+  font-size: 12px;
+  text-align: center;
+}
